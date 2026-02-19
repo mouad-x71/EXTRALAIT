@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extralait - Produits Laitiers de Qualité</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Extralait Logo">
+            </div>
+            
+            <nav class="nav-menu">
+                <h2 class="brand-name">EXTRALAIT</h2>
+                <ul>
+                    <li><a href="#produits" class="nav-link active">Produits</a></li>
+                    <li><a href="#apropos" class="nav-link">À propos</a></li>
+                    <li><a href="#qualite" class="nav-link">Qualité & Processus</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="social-section">
+                <p class="social-title">Suivez-nous</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1AUiKJYPZY/?mibextid=wwXIfr" target="_blank" class="social-icon" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/extralait.ma?igsh=MWY2cXJhNzlvc244aQ==" target="_blank" class="social-icon" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@extralait_maroc?_r=1&_t=ZS-91pSOP5Z2GL" target="_blank" class="social-icon" aria-label="TikTok">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="mountain-icon">
+                    <svg viewBox="0 0 100 60" fill="currentColor">
+                        <path d="M0 60 L30 20 L50 45 L70 15 L100 60 Z"/>
+                    </svg>
+                </div>
+                <p class="since">Qualité depuis 1953</p>
+                <p class="location">Kénitra, Maroc</p>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Products Hero Section -->
+        <section id="produits" class="section products-hero">
+            <div class="section-header">
+                <h1>Explorez nos Produits</h1>
+                <p>Des produits laitiers de qualité supérieure pour tous les goûts.</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card-3d" data-tilt>
+                    <div class="product-image">
+                        <img src="images/lait-farm.png" alt="Lait UHT">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title" style="color: #4aa8d8;">Lait UHT</h3>
+                        <p>Extralait propose une gamme complète de laits : entier pour le goût riche et crémeux, demi-écrémé pour l'équilibre entre douceur et légèreté, écrémé pour une option faible en matières grasses, et sans lactose pour les intolérants.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card-3d" data-tilt>
+                    <div class="product-image">
+                        <img src="images/yaourt-fruits.png" alt="Yaourt Nature">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title" style="color: #c94a4a;">Yaourt Nature</h3>
+                        <p>Notre yaourt nature est crémeux et sans additifs, parfait pour vos petits-déjeuners ou desserts. Disponible en pots de 150g.</p>
+                    </div>
+                </div>
+                
+                <div class="product-card-3d" data-tilt>
+                    <div class="product-image">
+                        <img src="images/yogo-family.png" alt="Yogo">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title" style="color: #e8a838;">Yogo</h3>
+                        <p>Yogo d'Extralait est un yaourt à boire onctueux et rafraîchissant, disponible en plusieurs saveurs gourmandes. Pratique et riche en calcium, il offre une pause saine et savoureuse à tout moment de la journée.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Detail Section -->
+        <section class="section products-detail dark-section">
+            <div class="section-header">
+                <h2>EXTRALAIT Produits</h2>
+                <p>Les derniers ajouts à notre gamme de produits laitiers.</p>
+            </div>
+            
+            <div class="filter-tabs">
+                <button class="tab-btn active">Toutes</button>
+                <button class="tab-btn">Produits en Vedette</button>
+            </div>
+            
+            <div class="product-detail-cards">
+                <div class="product-detail-card" data-reveal>
+                    <div class="product-img">
+                        <img src="images/lait-uht-products.png" alt="Lait">
+                    </div>
+                    <div class="product-content">
+                        <h3>LAIT</h3>
+                        <p class="price">10,00 <span>Dhs</span></p>
+                        <p class="description">Notre lait pasteurisé est riche en calcium et vitamines. Idéal pour toute la famille, il assure un goût frais et délicieux à chaque gorgée.</p>
+                        <div class="quantity">
+                            <span>Quantité</span>
+                            <button class="qty-btn minus">-</button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus">+</button>
+                        </div>
+                        <button class="btn-disabled">Bientôt disponible</button>
+                    </div>
+                </div>
+                
+                <div class="product-detail-card reverse" data-reveal>
+                    <div class="product-content">
+                        <h3>YOGO</h3>
+                        <p class="price">6,00 <span>Dhs</span></p>
+                        <p class="description">Yogo d'Extralait est un yaourt à boire onctueux et rafraîchissant, disponible en plusieurs saveurs gourmandes. Pratique et riche en calcium, il offre une pause saine et savoureuse à tout moment de la journée. Le compagnon idéal pour un petit-déjeuner rapide ou un goûter énergétique.</p>
+                        <div class="quantity">
+                            <span>Quantité</span>
+                            <button class="qty-btn minus">-</button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus">+</button>
+                        </div>
+                        <button class="btn-disabled">Bientôt disponible</button>
+                    </div>
+                    <div class="product-img">
+                        <img src="images/yogo-bottles.png" alt="Yogo">
+                    </div>
+                </div>
+                
+                <div class="product-detail-card" data-reveal>
+                    <div class="product-img">
+                        <img src="images/yaourt-fruits.png" alt="Yaourt">
+                    </div>
+                    <div class="product-content">
+                        <h3>Yaourt</h3>
+                        <p class="price">3,00 <span>Dhs</span></p>
+                        <p class="description">« Yaourt Extralait — onctueux, savoureux et naturel. Fabriqué avec soin à partir de lait frais transformé selon des standards rigoureux, il offre une texture crémeuse et un goût authentique, parfait pour le petit-déjeuner, un encas ou un dessert sain. »</p>
+                        <div class="quantity">
+                            <span>Quantité</span>
+                            <button class="qty-btn minus">-</button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn plus">+</button>
+                        </div>
+                        <button class="btn-disabled">Bientôt disponible</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="apropos" class="section history-section dark-section">
+            <div class="section-header">
+                <h2>Notre Histoire</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-reveal>
+                    <div class="timeline-image">
+                        <img src="images/history-1953.png" alt="1953">
+                        <span class="year-overlay">1953</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="year">1953</span>
+                        <h3>Les débuts de la coopérative</h3>
+                        <p>Extralait a été fondée en 1953 par un groupe de producteurs laitiers passionnés, désireux de garantir la qualité et la fraîcheur de leurs produits dans la région de Kénitra.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item reverse" data-reveal>
+                    <div class="timeline-content">
+                        <span class="year">1980</span>
+                        <h3>Croissance et innovation</h3>
+                        <p>Au fil des années, la coopérative a su évoluer et s'adapter aux nouvelles technologies, tout en restant fidèle à ses valeurs de qualité et de respect de l'environnement.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="images/stainless-tanks.png" alt="1980">
+                        <span class="year-overlay">1980</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-reveal>
+                    <div class="timeline-image">
+                        <img src="images/factory-tanks.png" alt="2026">
+                        <span class="year-overlay">2026</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="year">2026</span>
+                        <h3>Un acteur local engagé</h3>
+                        <p>Aujourd'hui, Extralait est reconnue comme un pilier de l'économie locale, soutenant les agriculteurs et offrant des produits laitiers d'exception tout en respectant les normes les plus strictes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="section stats-section">
+            <div class="section-header">
+                <h2>Chiffres Clés</h2>
+                <p class="subtitle">Notre succès en un coup d'oeil.</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card" data-reveal>
+                    <div class="stat-number">70<span class="highlight">+</span></div>
+                    <div class="stat-label">ans d'existence</div>
+                    <p>Extralait est fier de célébrer 70 ans d'engagement envers la qualité et l'innovation dans le secteur laitier.</p>
+                </div>
+                
+                <div class="stat-card" data-reveal>
+                    <div class="stat-number">1.5<span class="highlight">M</span></div>
+                    <div class="stat-label">million de litres</div>
+                    <p>Nous produisons chaque année plus de 1.5 million de litres de lait, garantissant la satisfaction de nos clients.</p>
+                </div>
+                
+                <div class="stat-card" data-reveal>
+                    <div class="stat-number">100<span class="highlight">%</span></div>
+                    <div class="stat-label">local</div>
+                    <p>Tous nos produits sont fabriqués à partir de lait collecté localement, soutenant ainsi les agriculteurs de notre région.</p>
+                </div>
+                
+                <div class="stat-card" data-reveal>
+                    <div class="stat-number">95<span class="highlight">%</span></div>
+                    <div class="stat-label">de satisfaction</div>
+                    <p>Selon nos enquêtes, 95% de nos clients sont satisfaits de la qualité de nos produits et de notre service.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section testimonials-section">
+            <div class="section-header">
+                <h2>Avis de Nos Clients</h2>
+                <p class="subtitle">Ce que nos clients disent de nous.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-reveal>
+                    <div class="testimonial-image">
+                        <img src="images/logo.png" alt="Rachid A.">
+                    </div>
+                    <h4>Rachid A.</h4>
+                    <p>C'est une coopérative avec une histoire d'une des plus anciennes coopératives des maroc se distinguant par sa qualité des produits laitière.</p>
+                </div>
+                
+                <div class="testimonial-card" data-reveal>
+                    <div class="testimonial-image">
+                        <img src="images/lait-farm.png" alt="Ahmed L.">
+                    </div>
+                    <h4>Ahmed L.</h4>
+                    <p>Le lait UHT d'Extralait est d'une qualité exceptionnelle. Je le recommande à toutes les familles.</p>
+                </div>
+                
+                <div class="testimonial-card" data-reveal>
+                    <div class="testimonial-image">
+                        <img src="images/supermarket-woman.png" alt="Fatima B.">
+                    </div>
+                    <h4>Fatima B.</h4>
+                    <p>Excellente coopérative où on peut trouver les produits laitiers de bonne qualité et de bon prix notamment le beurre fermier beldi.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Commitment Section -->
+        <section class="section commitment-section dark-section">
+            <div class="commitment-card" data-reveal>
+                <div class="commitment-image">
+                    <img src="images/quality-control.png" alt="Quality Control">
+                </div>
+                <div class="commitment-content">
+                    <h2>Notre Engagement envers la Qualité</h2>
+                    <p>Chez Extralait, notre mission est de fournir des produits laitiers de la plus haute qualité, en respectant les traditions tout en intégrant les innovations nécessaires pour satisfaire notre clientèle. Nous croyons fermement en une agriculture durable et responsable.</p>
+                    <a href="#qualite" class="btn-primary">En savoir plus</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quality Source Section -->
+        <section id="qualite" class="section quality-source-section">
+            <div class="section-header">
+                <h2>Qualité dès la source</h2>
+                <p class="subtitle">Un processus rigoureux pour un lait d'exception.</p>
+            </div>
+            
+            <div class="quality-cards">
+                <div class="quality-card" data-reveal>
+                    <div class="quality-image">
+                        <img src="images/production-line.png" alt="Sélection des producteurs">
+                    </div>
+                    <div class="quality-content">
+                        <h3>Sélection des producteurs</h3>
+                        <p>Nous travaillons uniquement avec des producteurs locaux, soigneusement sélectionnés pour leur engagement envers des pratiques d'élevage durables et respectueuses des animaux. Chaque producteur est formé aux meilleures pratiques pour garantir la qualité du lait.</p>
+                        <a href="#" class="btn-primary">Découvrir nos producteurs</a>
+                    </div>
+                </div>
+                
+                <div class="quality-card reverse" data-reveal>
+                    <div class="quality-content">
+                        <h3>Méthodes de collecte</h3>
+                        <p>Nos méthodes de collecte sont conçues pour minimiser le temps entre la traite et le traitement du lait. Des camions réfrigérés assurent que le lait reste à la bonne température, préservant ainsi sa fraîcheur et ses qualités nutritives.</p>
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                    </div>
+                    <div class="quality-image">
+                        <img src="images/delivery-trucks.png" alt="Méthodes de collecte">
+                    </div>
+                </div>
+                
+                <div class="quality-card" data-reveal>
+                    <div class="quality-image">
+                        <img src="images/lab-test.png" alt="Contrôles de qualité">
+                    </div>
+                    <div class="quality-content">
+                        <h3>Contrôles de qualité</h3>
+                        <p>Chaque lot de lait est soumis à des contrôles rigoureux en laboratoire pour s'assurer qu'il respecte nos normes élevées de qualité et d'hygiène avant d'être transformé en produits laitiers. La sécurité de nos consommateurs est notre priorité.</p>
+                        <a href="#" class="btn-primary">Voir nos normes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quality Assurance Section -->
+        <section class="section assurance-section">
+            <div class="section-header">
+                <h2>Assurance Qualité</h2>
+                <p class="subtitle">Votre confiance, notre priorité.</p>
+            </div>
+            
+            <div class="assurance-cards">
+                <div class="assurance-card" data-reveal>
+                    <div class="assurance-image">
+                        <img src="images/stainless-tanks.png" alt="Tests en Laboratoire">
+                    </div>
+                    <div class="assurance-content">
+                        <h3>Tests en Laboratoire</h3>
+                        <p>Tous nos produits sont soumis à des tests rigoureux en laboratoire avant leur mise sur le marché. Cela inclut des analyses microbiologiques et chimiques pour garantir leur qualité et leur sécurité.</p>
+                        <a href="#" class="btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+                
+                <div class="assurance-card reverse" data-reveal>
+                    <div class="assurance-content">
+                        <h3>Évaluation des Fournisseurs</h3>
+                        <p>Nous sélectionnons soigneusement nos fournisseurs en fonction de leurs pratiques de qualité. Chaque fournisseur est évalué sur des critères stricts pour assurer que les matières premières répondent à nos normes élevées.</p>
+                        <a href="#" class="btn-primary">Découvrez nos fournisseurs</a>
+                    </div>
+                    <div class="assurance-image">
+                        <img src="images/supermarket-shelf.png" alt="Évaluation des Fournisseurs">
+                    </div>
+                </div>
+                
+                <div class="assurance-card" data-reveal>
+                    <div class="assurance-image">
+                        <img src="images/supermarket-woman.png" alt="Retour d'Information Client">
+                    </div>
+                    <div class="assurance-content">
+                        <h3>Retour d'Information Client</h3>
+                        <p>Nous encourageons nos clients à donner leur avis sur nos produits. Cela nous permet d'identifier les domaines à améliorer et d'assurer une réponse rapide aux préoccupations éventuelles concernant la qualité.</p>
+                        <a href="#" class="btn-primary">Partagez votre avis</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hygiene Standards Section -->
+        <section class="section hygiene-section dark-section">
+            <div class="section-header">
+                <h2>Normes d'Hygiène</h2>
+                <p class="subtitle">La propreté avant tout.</p>
+            </div>
+            
+            <div class="hygiene-grid">
+                <div class="hygiene-card" data-reveal>
+                    <h3>Formation du Personnel</h3>
+                    <p>Tous nos employés sont formés régulièrement sur les meilleures pratiques d'hygiène et de sécurité alimentaire. Cette formation continue garantit une compréhension approfondie des normes à respecter.</p>
+                </div>
+                
+                <div class="hygiene-card" data-reveal>
+                    <h3>Contrôles Réguliers</h3>
+                    <p>Nous effectuons des contrôles réguliers et systématiques de nos installations pour nous assurer que toutes les normes d'hygiène sont respectées. Chaque étape est surveillée.</p>
+                </div>
+                
+                <div class="hygiene-card" data-reveal>
+                    <h3>Équipements Modernes</h3>
+                    <p>Nos équipements de production sont conçus pour respecter les normes d'hygiène les plus strictes. Ils sont nettoyés et désinfectés après chaque utilisation.</p>
+                </div>
+                
+                <div class="hygiene-card" data-reveal>
+                    <h3>Suivi des Protocoles</h3>
+                    <p>Nous avons mis en place des protocoles de nettoyage rigoureux qui sont suivis à la lettre. Un audit interne régulier permet de s'assurer que ces protocoles sont respectés.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-header">
+                <h2>Contactez-nous</h2>
+                <p class="subtitle">Nous sommes à votre écoute</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-form-wrapper" data-reveal>
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" placeholder="Nom" class="form-input" required>
+                        <input type="email" placeholder="Email" class="form-input" required>
+                        <textarea placeholder="Message" class="form-textarea" required></textarea>
+                        <button type="submit" class="btn-submit">Soumettre</button>
+                    </form>
+                </div>
+                
+                <div class="contact-map" data-reveal>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.788956448776!2d-6.5854!3d34.2649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDE1JzUzLjYiTiA2wrAzNScwNy40Ilc!5e0!3m2!1sfr!2sma!4v1700000000000!5m2!1sfr!2sma" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0; border-radius: 16px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                
+                <div class="contact-info">
+                    <a href="https://maps.app.goo.gl/yRsTt9H1dMKT5CMBA" target="_blank" class="info-item" data-reveal>
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Adresse</h4>
+                            <p>Extralait Coopérative Agricole Laitière de Kénitra, route tanger 14060, Morocco</p>
+                        </div>
+                    </a>
+                    
+                    <div class="info-item" data-reveal>
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Horaires</h4>
+                            <p>Du lundi au vendredi, de 08h à 17h, le samedi de 08h à 12h</p>
+                        </div>
+                    </div>
+                    
+                    <a href="tel:+212537378619" class="info-item" data-reveal>
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Téléphone</h4>
+                            <p>+212 537 378 619 / 05 37 37 86 19</p>
+                        </div>
+                    </a>
+                    
+                    <a href="mailto:extralait.ma@gmail.com" class="info-item" data-reveal>
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>extralait.ma@gmail.com</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/share/1AUiKJYPZY/?mibextid=wwXIfr" target="_blank" class="footer-social-icon" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/extralait.ma?igsh=MWY2cXJhNzlvc244aQ==" target="_blank" class="footer-social-icon" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@extralait_maroc?_r=1&_t=ZS-91pSOP5Z2GL" target="_blank" class="footer-social-icon" aria-label="TikTok">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                    </a>
+                </div>
+                
+                <div class="footer-contact">
+                    <a href="tel:+212537378619"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg> +212 537 378 619 / 05 37 37 86 19</a>
+                    <a href="mailto:extralait.ma@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> extralait.ma@gmail.com</a>
+                </div>
+                
+                <div class="footer-copyright">
+                    <p>&copy;2026 - Extralait.ma</p>
+                    <p>Tous droits réservés</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
